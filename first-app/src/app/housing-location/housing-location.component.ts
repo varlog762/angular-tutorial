@@ -5,7 +5,11 @@ import { CommonModule } from '@angular/common';
   selector: 'app-housing-location',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './housing-location.component.html',
+  template: `
+    <p>
+      housing-location works!
+    </p>
+  `,
   styleUrls: ['./housing-location.component.css']
 })
 export class HousingLocationComponent {
